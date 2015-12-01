@@ -156,7 +156,11 @@ void collisions() {
  blueY=random(up, down);
 }
 void button() {
-  ellipse(buttonX, buttonY, 25,25);
+  
+  fill(178, 255, 245);
+  ellipse(buttonX, buttonY, 40,40);
+  fill(78,59,255);
+  text("reset", 587, 54);
 }
 void mousePressed() {
   if( dist(buttonX, buttonY, mouseX, mouseY)<25) {
